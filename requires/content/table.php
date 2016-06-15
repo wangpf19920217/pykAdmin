@@ -116,7 +116,7 @@
               <td>1</td>
               <td><a href="x.php">Business management</a></td>
               <td>default</td>
-              <td>测试1号</td>
+              <td><a href="x.php">测试1号</a></td>
               <td>2016年6月14日12:28:47</td>
               <td>
                 <div class="am-btn-toolbar">
@@ -132,7 +132,7 @@
               <td>1</td>
               <td><a href="x.php">Business management</a></td>
               <td>default</td>
-              <td>测试1号</td>
+              <td><a href="x.php">测试2号</a></td>
               <td>2016年6月14日12:28:47</td>
               <td>
                 <div class="am-btn-toolbar">
@@ -148,7 +148,7 @@
               <td>1</td>
               <td><a href="x.php">Business management</a></td>
               <td>default</td>
-              <td>测试1号</td>
+              <td><a href="x.php">测试3号</a></td>
               <td>2016年6月14日12:28:47</td>
               <td>
                 <div class="am-btn-toolbar">
@@ -164,7 +164,7 @@
               <td>1</td>
               <td><a href="#">Business management</a></td>
               <td>default</td>
-              <td>测试1号</td>
+              <td><a href="x.php">测试4号</a></td>
               <td>2016年6月14日12:28:47</td>
               <td>
                 <div class="am-btn-toolbar">

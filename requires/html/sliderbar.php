@@ -2,12 +2,13 @@
 	<div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
 		<div class="am-offcanvas-bar admin-offcanvas-bar">
 			<ul class="am-list admin-sidebar-list" id="collapase-nav-1">
-				<li  class="am-panel">
+				<li>
 					<a  href="index.php">
-						<i class="am-icon-home am-margin-left-sm">
-						</i> 首页
+						<span class="am-icon-institution">
+						</span> 首页
 					</a>
 				</li>
+				
 				<li class="am-panel">
 					<a data-am-collapse="{parent: '#collapase-nav-1', target: '#company-nav'}">
 						<span class="am-icon-file">
@@ -45,7 +46,7 @@
 				</li>
 				<li class="am-panel">
 					<a data-am-collapse="{parent: '#collapase-nav-1', target: '#company-nav1'}">
-						<span class="am-icon-file">
+						<span class="am-icon-th-list">
 						</span> 表格表单
 						<span class="am-icon-angle-right am-fr am-margin-right">
 						</span>
@@ -86,7 +87,7 @@
 				</li>
 				<li>
 					<a href="log.php">
-						<span class="am-icon-institution">
+						<span class="am-icon-calendar">
 						</span> 日志
 					</a>
 				</li>
@@ -131,7 +132,7 @@
 	include_once('requires/html/javascript.php');
 ?>
 <script>
-	$('.am-list').find('a').click(function(){
-		$(this).addClass('am-active');
+	$('.am-list').find('a').on('mouseleave',function(){
+		$(this).addClass('am-act');
 	})
 </script>

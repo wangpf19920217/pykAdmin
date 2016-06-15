@@ -4,8 +4,6 @@
 
 *
  * admin.css
- body,html{
- }
 .help{
 	cursor:help ;
 }
@@ -87,7 +85,24 @@ ul {
   margin-bottom: 0;
   color: #666;
 }
-
+.admin-content-list {
+		border: 1px solid #e9ecf1;
+		
+		margin-top: 0;
+	}
+		.admin-content-list li {
+		border: 1px solid #e9ecf1;
+		border-width: 0 1px;
+		margin-left: -1px;
+		}
+		
+		.admin-content-list li:first-child {
+		border-left: none;
+		}
+		
+		.admin-content-list li:last-child {
+		border-right: none;
+		}
 .admin-content-file p {
   margin: 0 0 5px 0;
   font-size: 1.4rem;
