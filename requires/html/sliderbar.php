@@ -8,7 +8,12 @@
 						</span> 首页
 					</a>
 				</li>
-				
+				<li>
+					<a href="user.php">
+						<span class="am-icon-user">
+						</span> 用户
+					</a>
+				</li>
 				<li class="am-panel">
 					<a data-am-collapse="{parent: '#collapase-nav-1', target: '#company-nav'}">
 						<span class="am-icon-file">

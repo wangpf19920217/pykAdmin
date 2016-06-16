@@ -2,6 +2,8 @@
  是基于当前后台模板 所需 做的样式处理  非amazeUI原文件
  * */
 
+
+
 *
  * admin.css
 .help{
@@ -10,10 +12,11 @@
 ul {
   margin-top: 0;
 }
-
+h1,h2,h3,h4,h5,h6,p{margin: 0rem;padding: 0;}
 .admin-icon-yellow {
   color: #ffbe40;
 }
+button a{color: white;}
 
 .admin-header {
   font-size: 1.4rem;
@@ -359,3 +362,43 @@ gallery.html css
 .fixed-layout .admin-sidebar.am-active {
   z-index: 1600;
 }
+
+/*add
+ _______________________________________________________________
+ * */
+.am-user{
+	
+}
+.am-user .profile-user-img{
+	width: 120px;
+	height: 120px;
+	display: block;
+	margin: 0 auto;
+}
+.am-user .profile-username{
+	margin: 0;
+}
+.am-user .about-user{
+	margin-top: 10px;
+	border-top: 3px solid #05B2D2;
+}
+.am-user .am-list-u{
+}
+.am-user .am-list-u > li{
+	padding: 5px 0;
+	line-height: 20px;
+}
+.am-user .am-list > li p{
+	padding: 10px 0;	
+}
+/*右上角信息提示 例*/
+.am-badge{
+	position: absolute;
+    top: 9px;
+    right: 7px;
+    text-align: center;
+    font-size: 9px;
+    padding: 2px 3px;
+    line-height: .9;
+}
+/*右上角信息提示*/

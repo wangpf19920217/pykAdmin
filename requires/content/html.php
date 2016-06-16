@@ -35,6 +35,74 @@
 		</div>
 	</div>
 	<ol>
+		<li>
+			<h1>回复/评论</h1>
+			<ul class="am-comments-list admin-content-comment">
+              <li class="am-comment">
+                <a href="#"><img src="http://amui.qiniudn.com/bw-2014-06-19.jpg?imageView/1/w/96/h/96" alt="" class="am-comment-avatar" width="48" height="48"></a>
+                <div class="am-comment-main">
+                  <header class="am-comment-hd">
+                    <div class="am-comment-meta"><a href="#" class="am-comment-author">某人</a> 评论于 <time>2014-7-12 15:30</time></div>
+                  </header>
+                  <div class="am-comment-bd"><p>遵循 “移动优先（Mobile First）”、“渐进增强（Progressive enhancement）”的理念，可先从移动设备开始开发网站，逐步在扩展的更大屏幕的设备上，专注于最重要的内容和交互，很好。</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="am-comment">
+                <a href="#"><img src="http://amui.qiniudn.com/bw-2014-06-19.jpg?imageView/1/w/96/h/96" alt="" class="am-comment-avatar" width="48" height="48"></a>
+                <div class="am-comment-main">
+                  <header class="am-comment-hd">
+                    <div class="am-comment-meta"><a href="#" class="am-comment-author">某人</a> 评论于 <time>2014-7-12 15:30</time></div>
+                  </header>
+                  <div class="am-comment-bd"><p>有效减少为兼容旧浏览器的臃肿代码；基于 CSS3 的交互效果，平滑、高效。AMUI专注于现代浏览器（支持HTML5），不再为过时的浏览器耗费资源，为更有价值的用户提高更好的体验。</p>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+		</li>
+		<li id="tubiao">
+			<h1>小图标</h1>
+			Amaze UI Icon 组件目前使用了 <a href="http://fontawesome.io/icons/" class="external-link" target="_blank">Font Awesome</a>（Amaze UI 2.2.0 中升级至 4.3.0），涵盖除部分国内社交网站图标以外的其他常见图标。<br />
+			<a href="##" class="am-icon-btn am-icon-twitter"></a>
+			<a href="##" class="am-icon-btn am-icon-facebook"></a>
+			<a href="##" class="am-icon-btn am-icon-github"></a>
+			<a href="##" class="am-icon-btn am-primary am-icon-qq"></a>
+			<a href="##" class="am-icon-btn am-secondary am-icon-drupal"></a>
+			<a href="##" class="am-icon-btn am-success am-icon-shield"></a>
+			<a href="##" class="am-icon-btn am-warning am-icon-warning"></a>
+			<a href="##" class="am-icon-btn am-danger am-icon-youtube"></a><br /><br />
+			<i class="am-icon-qq am-icon-fw"></i>QQ
+			<i class="am-icon-skype am-icon-fw"></i>Skype
+			<i class="am-icon-github am-icon-fw"></i>GitHub
+			<i class="am-icon-cc-amex am-icon-fw"></i>Amex<br /><br />
+			<i class="am-icon-spinner am-icon-spin"></i>
+			<i class="am-icon-refresh am-icon-spin"></i>
+			<i class="am-icon-circle-o-notch am-icon-spin"></i>
+			<i class="am-icon-cog am-icon-spin"></i>
+			<i class="am-icon-gear am-icon-spin"></i><br />
+		</li>
+		<li>
+			<h1>小徽章</h1>
+			<span class="am-badge">1</span>
+			<span class="am-badge am-badge-primary">2</span>
+			<span class="am-badge am-badge-secondary">3</span>
+			<span class="am-badge am-badge-success">4</span>
+			<span class="am-badge am-badge-warning">5</span>
+			<span class="am-badge am-badge-danger">6</span>
+			<span class="am-badge am-badge-success">Allmobilize</span>
+			<br>
+			<a class="am-badge am-badge-primary">Free</a>
+			<a class="am-badge am-badge-secondary">Secondary</a>
+			<a class="am-badge am-badge-success">Success</a>
+			<a class="am-badge am-badge-warning">Warning</a>
+			<a class="am-badge am-badge-danger">Danger</a>
+		</li>
+	</ol>
+	
+	
+	<ol>
 		<li id="about">
 			<h1>
 				搭建一个基于amaze的模板搭建
@@ -173,55 +241,5 @@
 		</li>
 	</ol>
 	<hr />
-	<ol>
-		<li>
-			<h1>回复/评论</h1>
-			<ul class="am-comments-list admin-content-comment">
-              <li class="am-comment">
-                <a href="#"><img src="http://amui.qiniudn.com/bw-2014-06-19.jpg?imageView/1/w/96/h/96" alt="" class="am-comment-avatar" width="48" height="48"></a>
-                <div class="am-comment-main">
-                  <header class="am-comment-hd">
-                    <div class="am-comment-meta"><a href="#" class="am-comment-author">某人</a> 评论于 <time>2014-7-12 15:30</time></div>
-                  </header>
-                  <div class="am-comment-bd"><p>遵循 “移动优先（Mobile First）”、“渐进增强（Progressive enhancement）”的理念，可先从移动设备开始开发网站，逐步在扩展的更大屏幕的设备上，专注于最重要的内容和交互，很好。</p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="am-comment">
-                <a href="#"><img src="http://amui.qiniudn.com/bw-2014-06-19.jpg?imageView/1/w/96/h/96" alt="" class="am-comment-avatar" width="48" height="48"></a>
-                <div class="am-comment-main">
-                  <header class="am-comment-hd">
-                    <div class="am-comment-meta"><a href="#" class="am-comment-author">某人</a> 评论于 <time>2014-7-12 15:30</time></div>
-                  </header>
-                  <div class="am-comment-bd"><p>有效减少为兼容旧浏览器的臃肿代码；基于 CSS3 的交互效果，平滑、高效。AMUI专注于现代浏览器（支持HTML5），不再为过时的浏览器耗费资源，为更有价值的用户提高更好的体验。</p>
-                  </div>
-                </div>
-              </li>
-
-            </ul>
-		</li>
-		<li id="tubiao">
-			<h1>小图标</h1>
-			Amaze UI Icon 组件目前使用了 <a href="http://fontawesome.io/icons/" class="external-link" target="_blank">Font Awesome</a>（Amaze UI 2.2.0 中升级至 4.3.0），涵盖除部分国内社交网站图标以外的其他常见图标。<br />
-			<a href="##" class="am-icon-btn am-icon-twitter"></a>
-			<a href="##" class="am-icon-btn am-icon-facebook"></a>
-			<a href="##" class="am-icon-btn am-icon-github"></a>
-			<a href="##" class="am-icon-btn am-primary am-icon-qq"></a>
-			<a href="##" class="am-icon-btn am-secondary am-icon-drupal"></a>
-			<a href="##" class="am-icon-btn am-success am-icon-shield"></a>
-			<a href="##" class="am-icon-btn am-warning am-icon-warning"></a>
-			<a href="##" class="am-icon-btn am-danger am-icon-youtube"></a><br /><br />
-			<i class="am-icon-qq am-icon-fw"></i>QQ
-			<i class="am-icon-skype am-icon-fw"></i>Skype
-			<i class="am-icon-github am-icon-fw"></i>GitHub
-			<i class="am-icon-cc-amex am-icon-fw"></i>Amex<br /><br />
-			<i class="am-icon-spinner am-icon-spin"></i>
-			<i class="am-icon-refresh am-icon-spin"></i>
-			<i class="am-icon-circle-o-notch am-icon-spin"></i>
-			<i class="am-icon-cog am-icon-spin"></i>
-			<i class="am-icon-gear am-icon-spin"></i><br />
-		</li>
-	</ol>
 	
 </div>
